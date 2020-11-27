@@ -92,7 +92,8 @@ int main() {
 	DiscordEventHandlers handlers;
 	memset(&handlers, 0, sizeof(handlers));
 	Discord_Initialize("781538875591491586", &handlers, 1, NULL);
-	std::cout << "Running. Press ESC to close. Sometimes you'll need to hold it but still...\n Alt+F4 should also work.\n";
+	std::cout << "Running. Press ESC to close. Sometimes you'll need to hold it but still...\n";
+	std::cout << "Alt+F4 should also work.\n";
 	while (true) {
 		if (GetAsyncKeyState(VK_ESCAPE) & 0x1) {
 			break;
