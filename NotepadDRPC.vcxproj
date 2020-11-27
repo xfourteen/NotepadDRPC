@@ -93,6 +93,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -146,6 +147,7 @@
     <ClCompile Include="discord-rpc\src\dllmain.cpp" />
     <ClCompile Include="discord-rpc\src\rpc_connection.cpp" />
     <ClCompile Include="discord-rpc\src\serialization.cpp" />
+    <ClCompile Include="HAPIH.cpp" />
     <ClCompile Include="NotepadDRPC.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +155,7 @@
     <ClInclude Include="discord-rpc\src\msg_queue.h" />
     <ClInclude Include="discord-rpc\src\rpc_connection.h" />
     <ClInclude Include="discord-rpc\src\serialization.h" />
+    <ClInclude Include="HAPIH.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

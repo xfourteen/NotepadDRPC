@@ -39,6 +39,9 @@
     <ClCompile Include="discord-rpc\src\serialization.cpp">
       <Filter>Source Files\SDK</Filter>
     </ClCompile>
+    <ClCompile Include="HAPIH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="discord-rpc\src\backoff.h">
@@ -52,6 +55,9 @@
     </ClInclude>
     <ClInclude Include="discord-rpc\src\serialization.h">
       <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="HAPIH.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
